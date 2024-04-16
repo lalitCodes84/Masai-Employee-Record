@@ -1,0 +1,67 @@
+Fill CSS here
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body>h1{
+    text-align: center;
+    text-decoration: underline;
+    color: #0567ac;
+    font-weight: 800;
+    margin-bottom: 8vh;
+    margin-top: 0;
+}
+body>div{
+    display: flex;
+    justify-content: space-around;
+}
+tr{
+    width: 100%;
+}
+th{
+    background-color: #0567ac;
+    padding: 5px 10px;
+    /* border: 1px solid black; */
+    font-size: 1vw;
+    color: white;
+}
+
+form{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 30%;
+    margin-left: 1%;
+    padding: 1.5%;
+    height: fit-content;
+    padding-right: 0.1vw;
+}
+input{
+    width: 90%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+select{
+    margin-bottom: 2%;
+}
+#mbl~input{
+    background-color: #0567ac;
+    width: 92%;
+    border-radius: 50px;
+    border: none;
+    padding: 2%;
+    color: white;
+    cursor: pointer;
+}
+#name, #mbl, #exp, #employeeID, #email, #department{
+    height: 5vh;
+}
+tbody>tr{
+    width: 100%;
+}
+tr>td{
+    
+    /* border: 1px solid black; */
+    font-size: 1vw;
+    color: white;
+
+}
